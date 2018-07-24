@@ -1,0 +1,2271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a6531ab7068c4b839cc4eaa93394170, type: 3}
+  m_Name: dialoguer_data_object
+  m_EditorClassIdentifier: 
+  data:
+    generateEnum: 1
+    dialogues:
+    - id: 0
+      name: dead body
+      startPage: 0
+      scrollPosition: {x: 166.06102, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: dialogue box - bottom
+        position: {x: 178, y: 22}
+        outs: 01000000
+        advanced: 1
+        metadata: 
+        text: That's gross, who even is that?
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 1
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 0
+        theme: 
+        position: {x: 487, y: 53}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: Whoever it is, they're gross now.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 6
+        theme: 
+        position: {x: 832, y: 131}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 6
+        theme: 
+        position: {x: 600.90826, y: 20}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 1
+      name: filing cabinets
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 212, y: 80}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: You can't open them but they probably have a lot of cool patient secrets
+          in them.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 570, y: 147}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 2
+      name: desk
+      startPage: 0
+      scrollPosition: {x: 243.8169, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 174, y: 25}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 'The book is about the benefits of hypnotism before brain surgeries.
+
+          The paper is a half finished letter.'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 1
+        theme: 
+        position: {x: 501, y: 22}
+        outs: 0200000003000000
+        advanced: 0
+        metadata: 
+        text: Would you like to read the letter?
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices:
+        - Yes
+        - No
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 0
+        theme: 
+        position: {x: 830.8169, y: 238}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: aasdsdsdsdsa
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 6
+        theme: 
+        position: {x: 866.8169, y: 65}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 6
+        theme: 
+        position: {x: 1160.8169, y: 150}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 3
+      name: opencabinet
+      startPage: 2
+      scrollPosition: {x: 23, y: 0}
+      phases:
+      - id: 0
+        type: 6
+        theme: 
+        position: {x: 595, y: 255}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 596, y: 221}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 1
+        theme: 
+        position: {x: 240, y: 10}
+        outs: ffffffff0100000000000000
+        advanced: 1
+        metadata: 
+        text: There's a key in here.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 1
+        choices:
+        - 
+        - take it
+        - leave it
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 4
+      name: TV
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 15, y: 90}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: The screen is blank.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 362, y: 138}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 5
+      name: whiteboard
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 171, y: 25}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: You can barely read it. Try not to dwell too hard on that, it probably
+          doesn't matter anyways.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 268, y: 196}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 6
+      name: nursery
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 171, y: 29}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: You can't see into the nursery but you feel like something is moving
+          in there.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 362, y: 199}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 7
+      name: baby thing
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 179, y: 33}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: Where did the baby go?
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 308, y: 185}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 8
+      name: crates
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 68, y: 73}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: These crates seem unnecsessary.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 435, y: 127}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 9
+      name: sinkroom1
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 10, y: 101}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: There's blood in the sink. Yuck.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 349, y: 143}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 10
+      name: bed
+      startPage: 0
+      scrollPosition: {x: 379.75494, y: 60}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 10, y: 90}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: You decide it's best if you don't think about what those stains are
+          from.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 370, y: 111}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 11
+      name: doorone
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 13, y: 93}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: You need a key.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 356, y: 165}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 12
+      name: babyphoto
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 36, y: 87}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: This photo of a baby makes you very uncomfortable.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 356, y: 84}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 13
+      name: footprints
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 127, y: 86}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: Bloody footprints. Nice touch.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 448, y: 77}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 14
+      name: shelves
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 113, y: 127}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: This must be some kind of storage room. There's a lot of important looking
+          binders and stacks of papers.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 449, y: 128}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 15
+      name: photograph
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 73, y: 95}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: Who's that?
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 393, y: 100}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 16
+      name: mopbucket
+      startPage: 0
+      scrollPosition: {x: 0, y: 60}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 175, y: 12}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: There's something swimming in the murky mop water.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 0
+        theme: 
+        position: {x: 21, y: 179}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: Something about the way it moves makes you hesitate to go too close
+          to it.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 6
+        theme: 
+        position: {x: 343, y: 158}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 17
+      name: bloodcounter
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 14, y: 98}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: You're starting to realize that this is not a very sanitary hospital.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 375, y: 89}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 18
+      name: poster01
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 10, y: 99}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: What is that?
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 353, y: 134}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 19
+      name: bedah
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 23, y: 113}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: Well that seems really unnescessary.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 337, y: 152}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 20
+      name: book shelf
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 10, y: 92}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: Ooh, these books look kind of important. Too bad somebody threw a bunch
+          down on the floor.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 358, y: 96}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 21
+      name: lamp
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 44, y: 101}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: This lamp is very ugly.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 408, y: 108}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 22
+      name: chair
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 31, y: 81}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: This used to be for sitting but now it mostly just lays on the floor.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 361, y: 68}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 23
+      name: certificate
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 54, y: 103}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: Qualification.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 6
+        theme: 
+        position: {x: 386, y: 117}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 24
+      name: deadbody02
+      startPage: 0
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 49, y: 115}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: Looks like she dragged herself over here.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 0
+        theme: 
+        position: {x: 371, y: 44}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: And made a total mess doing it.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 6
+        theme: 
+        position: {x: 702, y: 84}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 25
+      name: otherkey
+      startPage: 1
+      scrollPosition: {x: 0, y: 0}
+      phases:
+      - id: 0
+        type: 6
+        theme: 
+        position: {x: 393, y: 78}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 1
+        theme: 
+        position: {x: 64, y: 113}
+        outs: 000000000000000000000000
+        advanced: 0
+        metadata: 
+        text: It's another key.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices:
+        - 
+        - take it
+        - leave it
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    globals:
+      booleans:
+        variables: []
+        selection: 0
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+    themes:
+      themes: []
+      selection: 0
+    selectorScrollPosition: {x: 0, y: 221}
