@@ -26,7 +26,7 @@ MonoBehaviour:
         outs: 01000000
         advanced: 1
         metadata: 
-        text: That's gross, who even is that?
+        text: 'This guy is extra dead. '
         name: 
         portrait: 
         audio: 
@@ -164,8 +164,8 @@ MonoBehaviour:
         outs: 01000000
         advanced: 0
         metadata: 
-        text: You can't open them but they probably have a lot of cool patient secrets
-          in them.
+        text: 'There''s probably highly sensitive patient records in here. Probably
+          unobtainable thanks to HIPAA. '
         name: 
         portrait: 
         audio: 
@@ -232,7 +232,7 @@ MonoBehaviour:
     - id: 2
       name: desk
       startPage: 0
-      scrollPosition: {x: 243.8169, y: 0}
+      scrollPosition: {x: 0, y: 0}
       phases:
       - id: 0
         type: 0
@@ -241,9 +241,8 @@ MonoBehaviour:
         outs: 01000000
         advanced: 0
         metadata: 
-        text: 'The book is about the benefits of hypnotism before brain surgeries.
-
-          The paper is a half finished letter.'
+        text: 'A half finished letter sits ontop of a medical journal titled "Hypnosis
+          before Surgery". '
         name: 
         portrait: 
         audio: 
@@ -307,7 +306,10 @@ MonoBehaviour:
         outs: 04000000
         advanced: 0
         metadata: 
-        text: aasdsdsdsdsa
+        text: 'Patient Log: 32405
+
+
+          Patient nicknamed L'
         name: 
         portrait: 
         audio: 
@@ -2346,7 +2348,7 @@ MonoBehaviour:
         text: 'NOTICE:
 
 
-          Elevator out of order. Maintance requested, please do not scatter essential
+          Elevator out of order. Maintance requested. Please do not scatter essential
           elevator components around the room. '
         name: 
         portrait: 
