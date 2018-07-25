@@ -28,4 +28,5 @@ public enum DialoguerDialogues{
 	deadbody02 = 24,
 	otherkey = 25,
 	waitingroomdoor = 26,
+	Billboard = 27,
 }
