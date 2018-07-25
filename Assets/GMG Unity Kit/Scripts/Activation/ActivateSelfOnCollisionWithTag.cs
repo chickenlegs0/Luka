@@ -9,7 +9,7 @@ public class ActivateSelfOnCollisionWithTag : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D coll)
 	{
-		if (coll.collider.tag == TagName)
+		if (coll.collider.tag == TagName && activatable)
 		{
 			activatable.Activate();
 		}
