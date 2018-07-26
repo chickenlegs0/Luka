@@ -31,4 +31,5 @@ public enum DialoguerDialogues{
 	Billboard = 27,
 	deadbody03 = 28,
 	deadbody04 = 29,
+	Monitor_Key = 30,
 }

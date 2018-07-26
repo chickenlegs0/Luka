@@ -16,48 +16,17 @@ MonoBehaviour:
     dialogues:
     - id: 0
       name: dead body
-      startPage: 0
+      startPage: 4
       scrollPosition: {x: 0, y: 0}
       phases:
       - id: 0
-        type: 0
-        theme: dialogue box - bottom
-        position: {x: 178, y: 22}
-        outs: 01000000
-        advanced: 1
-        metadata: 
-        text: 'This guy is extra dead. '
-        name: 
-        portrait: 
-        audio: 
-        audioDelay: 0
-        rect:
-          serializedVersion: 2
-          x: 0
-          y: 0
-          width: 0
-          height: 0
-        newWindow: 1
-        choices: []
-        waitType: 0
-        waitDuration: 0
-        variableScope: 0
-        variableType: 0
-        variableId: 0
-        variableScrollPosition: {x: 0, y: 0}
-        variableSetEquation: 0
-        variableSetValue: 
-        variableGetEquation: 0
-        variableGetValue: 
-        messageName: 
-      - id: 1
-        type: 0
+        type: 6
         theme: 
-        position: {x: 487, y: 53}
-        outs: 02000000
+        position: {x: 872, y: 299}
+        outs: 
         advanced: 0
         metadata: 
-        text: Whoever it is, they're gross now.
+        text: 
         name: 
         portrait: 
         audio: 
@@ -81,14 +50,47 @@ MonoBehaviour:
         variableGetEquation: 0
         variableGetValue: 
         messageName: 
-      - id: 2
-        type: 6
+      - id: 1
+        type: 1
         theme: 
-        position: {x: 832, y: 131}
-        outs: 
+        position: {x: 477, y: 78}
+        outs: 0200000000000000
         advanced: 0
         metadata: 
         text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices:
+        - Take keys
+        - Leave keys
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 0
+        theme: 
+        position: {x: 835, y: 94}
+        outs: 03000000
+        advanced: 0
+        metadata: 
+        text: 'You got a research lab key! (Bottom Right) '
         name: 
         portrait: 
         audio: 
@@ -113,13 +115,45 @@ MonoBehaviour:
         variableGetValue: 
         messageName: 
       - id: 3
-        type: 6
+        type: 5
         theme: 
-        position: {x: 600.90826, y: 20}
-        outs: 
+        position: {x: 1040, y: 252}
+        outs: 00000000
         advanced: 0
         metadata: 
         text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 0
+        theme: 
+        position: {x: 140, y: 98}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 'This guy is very asleep. Seems like his keychain is still on his mangled,
+          sleepy, body. '
         name: 
         portrait: 
         audio: 
@@ -544,7 +578,7 @@ MonoBehaviour:
     - id: 3
       name: opencabinet
       startPage: 2
-      scrollPosition: {x: 23, y: 0}
+      scrollPosition: {x: 0, y: 0}
       phases:
       - id: 0
         type: 6
@@ -580,7 +614,7 @@ MonoBehaviour:
       - id: 1
         type: 6
         theme: 
-        position: {x: 596, y: 221}
+        position: {x: 834, y: 204}
         outs: 
         advanced: 0
         metadata: 
@@ -612,7 +646,7 @@ MonoBehaviour:
         type: 1
         theme: 
         position: {x: 240, y: 10}
-        outs: ffffffff0100000000000000
+        outs: ffffffff0300000000000000
         advanced: 1
         metadata: 
         text: There's a key in here.
@@ -631,6 +665,37 @@ MonoBehaviour:
         - 
         - take it
         - leave it
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 5
+        theme: 
+        position: {x: 606, y: 11}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
         waitType: 0
         waitDuration: 0
         variableScope: 0
@@ -1503,7 +1568,8 @@ MonoBehaviour:
         outs: 01000000
         advanced: 0
         metadata: 
-        text: Who's that?
+        text: This person looks strangely familar... you I can't put my finger on
+          it...
         name: 
         portrait: 
         audio: 
@@ -1570,7 +1636,7 @@ MonoBehaviour:
     - id: 16
       name: mopbucket
       startPage: 0
-      scrollPosition: {x: 0, y: 60}
+      scrollPosition: {x: 0, y: 0}
       phases:
       - id: 0
         type: 0
@@ -1607,7 +1673,7 @@ MonoBehaviour:
         type: 0
         theme: 
         position: {x: 21, y: 179}
-        outs: 02000000
+        outs: 03000000
         advanced: 0
         metadata: 
         text: Something about the way it moves makes you hesitate to go too close
@@ -1638,8 +1704,103 @@ MonoBehaviour:
       - id: 2
         type: 6
         theme: 
-        position: {x: 343, y: 158}
+        position: {x: 525, y: 204}
         outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 1
+        theme: 
+        position: {x: 332, y: 275}
+        outs: 0400000002000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices:
+        - Reach into bucket
+        - Yeah...no...
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 0
+        theme: 
+        position: {x: 647, y: 278}
+        outs: 05000000
+        advanced: 0
+        metadata: 
+        text: Hey, it's a key to the office. (Far left)
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 5
+        type: 5
+        theme: 
+        position: {x: 989, y: 276}
+        outs: 02000000
         advanced: 0
         metadata: 
         text: 
@@ -2639,10 +2800,11 @@ MonoBehaviour:
         type: 0
         theme: 
         position: {x: 62, y: 122}
-        outs: 01000000
+        outs: 02000000
         advanced: 0
         metadata: 
-        text: Its like his hand tried to run away.
+        text: 'Its like his hand tried to run away. Luckily his other hand still has
+          the keys to the waiting room. '
         name: 
         portrait: 
         audio: 
@@ -2669,8 +2831,639 @@ MonoBehaviour:
       - id: 1
         type: 6
         theme: 
-        position: {x: 415, y: 133}
+        position: {x: 845, y: 273}
         outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 1
+        theme: 
+        position: {x: 406, y: 67}
+        outs: 0300000001000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices:
+        - 'Don''t mind if I do. '
+        - I'm not touching that
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 5
+        theme: 
+        position: {x: 739, y: 19}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      floats:
+        variables: []
+        selection: 0
+      strings:
+        variables: []
+        selection: 0
+      booleans:
+        variables: []
+        selection: 0
+    - id: 30
+      name: Monitor Key
+      startPage: 0
+      scrollPosition: {x: 709.20605, y: 0}
+      phases:
+      - id: 0
+        type: 0
+        theme: 
+        position: {x: 177, y: 11}
+        outs: 01000000
+        advanced: 0
+        metadata: 
+        text: This monitor is working....
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 1
+        type: 1
+        theme: 
+        position: {x: 507, y: 27}
+        outs: ffffffff0300000002000000
+        advanced: 0
+        metadata: 
+        text: Remote Safe Unlock Protocol.. continue?
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices:
+        - 
+        - Yes
+        - No
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 2
+        type: 6
+        theme: 
+        position: {x: 736, y: 522}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 3
+        type: 1
+        theme: 
+        position: {x: 837, y: 23}
+        outs: ffffffff040000000400000006000000
+        advanced: 0
+        metadata: 
+        text: 'Enter Admin Username.... '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices:
+        - 
+        - Terry Johnson
+        - Sandra Yarn
+        - Henry Henderson
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 4
+        type: 0
+        theme: 
+        position: {x: 1173, y: 220}
+        outs: 05000000
+        advanced: 0
+        metadata: 
+        text: 'Invalid Credential....
+
+          Logging Off....'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 5
+        type: 6
+        theme: 
+        position: {x: 1508.9989, y: 248.00195}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 6
+        type: 0
+        theme: 
+        position: {x: 1171, y: 368.00012}
+        outs: 07000000
+        advanced: 0
+        metadata: 
+        text: Welcome Dr. Henderson... Please enter your passkey....
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 7
+        type: 1
+        theme: 
+        position: {x: 1489, y: 380.00037}
+        outs: 04000000040000000400000008000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices:
+        - <ProjectRomeo>
+        - <SmellyBoy1020>
+        - <KingofTheBeach>
+        - <CCTransfernative>
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 8
+        type: 0
+        theme: 
+        position: {x: 1897.9937, y: 407}
+        outs: 0a000000
+        advanced: 0
+        metadata: 
+        text: Password Accepted... Select Option
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 9
+        type: 1
+        theme: 
+        position: {x: 1485, y: 134}
+        outs: ffffffffffffffff
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices:
+        - 
+        - 
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 10
+        type: 1
+        theme: 
+        position: {x: 1991, y: 90}
+        outs: 0b0000000d000000ffffffff
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices:
+        - <View Logs>
+        - <Open Cabinet>
+        - <Log Off>
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 11
+        type: 0
+        theme: 
+        position: {x: 1835, y: 596}
+        outs: 0c000000
+        advanced: 0
+        metadata: 
+        text: 'March 19,
+
+          Dr. McGregor is on her deathbed, despite our advances in medicine, her condition
+          has deteriorated significantly..'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 12
+        type: 0
+        theme: 
+        position: {x: 2146, y: 597}
+        outs: 02000000
+        advanced: 0
+        metadata: 
+        text: 'She''s authorized use of Project Transfernative, her proceedure is
+          schedule for the 23rd.
+
+          <End>'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 13
+        type: 0
+        theme: 
+        position: {x: 1898, y: 759}
+        outs: 0e000000
+        advanced: 0
+        metadata: 
+        text: The safe is unlocked. There is a key inside.
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 14
+        type: 1
+        theme: 
+        position: {x: 2222, y: 753}
+        outs: 100000000f000000
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices:
+        - Take Key
+        - Close Safe
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 15
+        type: 6
+        theme: 
+        position: {x: 2567, y: 948}
+        outs: 
+        advanced: 0
+        metadata: 
+        text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 16
+        type: 5
+        theme: 
+        position: {x: 2576, y: 484}
+        outs: 0f000000
         advanced: 0
         metadata: 
         text: 

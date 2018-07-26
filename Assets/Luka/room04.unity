@@ -1488,6 +1488,58 @@ PolygonCollider2D:
       - {x: 0.052256454, y: -0.07942823}
       - {x: 0.0068336953, y: -0.025464516}
       - {x: 0.02, y: 0.26}
+--- !u!1001 &1596143200
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4956410421454492, guid: d84ca4a96e22c478989497c4455d0a2a, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -3.295962
+      objectReference: {fileID: 0}
+    - target: {fileID: 4956410421454492, guid: d84ca4a96e22c478989497c4455d0a2a, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -3.0205865
+      objectReference: {fileID: 0}
+    - target: {fileID: 4956410421454492, guid: d84ca4a96e22c478989497c4455d0a2a, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -9.682452
+      objectReference: {fileID: 0}
+    - target: {fileID: 4956410421454492, guid: d84ca4a96e22c478989497c4455d0a2a, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4956410421454492, guid: d84ca4a96e22c478989497c4455d0a2a, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4956410421454492, guid: d84ca4a96e22c478989497c4455d0a2a, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4956410421454492, guid: d84ca4a96e22c478989497c4455d0a2a, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4956410421454492, guid: d84ca4a96e22c478989497c4455d0a2a, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 114777743620589932, guid: d84ca4a96e22c478989497c4455d0a2a,
+        type: 2}
+      propertyPath: itemToAdd
+      value: officekey
+      objectReference: {fileID: 0}
+    - target: {fileID: 114777743620589932, guid: d84ca4a96e22c478989497c4455d0a2a,
+        type: 2}
+      propertyPath: amountToAdd
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: d84ca4a96e22c478989497c4455d0a2a, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1751391988
 GameObject:
   m_ObjectHideFlags: 0

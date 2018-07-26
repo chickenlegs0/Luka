@@ -3,10 +3,11 @@ using UnityEngine.Events;
 
 public class Door : MonoBehaviour
 {
-	[SerializeField] private Key[] keysToUnlockThisDoor;
+	[SerializeField] private string[] keysToUnlockThisDoor;
     [SerializeField] private KeyCode keyToPressToUnlock;
     [SerializeField] private UnityEvent OnUnlock;
 	[SerializeField] private UnityEvent OnAllKeysEnterRange;
+	[SerializeField] private string tagThatHoldsTheyKeys = "Player";
 
 	private bool allKeysAreInRange;
 
@@ -24,36 +25,50 @@ public class Door : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D coll)
     {
-        if (coll.GetComponent<RSV.InventoryManager>())
+		if (coll.CompareTag(tagThatHoldsTheyKeys))
         {
 			allKeysAreInRange = true;
 
-			// if they don't have all the keys, then keep allKeysAreInRange false
-			foreach (Key k in keysToUnlockThisDoor)
-            {
-				if (!coll.GetComponent<RSV.InventoryManager>().inventory.Contains(k))
-				{
-					allKeysAreInRange = false;
-				}
-            }
+			InventoryManager inventoryManager = GameObject.FindObjectOfType<InventoryManager> ();
 
-			if (allKeysAreInRange)
-				OnAllKeysEnterRange.Invoke ();
+			if (inventoryManager)
+			{
+				// if they don't have all the keys, then keep allKeysAreInRange false
+				foreach (string k in keysToUnlockThisDoor)
+				{
+					if (!inventoryManager.Inventory.ContainsKey(k))
+					{
+						allKeysAreInRange = false;
+					}
+				}
+
+				if (allKeysAreInRange)
+					OnAllKeysEnterRange.Invoke ();
+			}
+
+		
         }
     }
 
     public void OnTriggerExit2D(Collider2D coll)
     {
-        if (coll.GetComponent<RSV.InventoryManager>())
+		if (coll.CompareTag(tagThatHoldsTheyKeys))
         {
-			// if any of the keys leave then make allKeysAreInRange false
-			foreach (Key k in keysToUnlockThisDoor)
-			{
-				if (coll.GetComponent<RSV.InventoryManager>().inventory.Contains(k))
+
+			InventoryManager inventoryManager = GameObject.FindObjectOfType<InventoryManager> ();
+
+			if (inventoryManager) {
+
+				// if any of the keys leave then make allKeysAreInRange false
+				foreach (string k in keysToUnlockThisDoor)
 				{
-					allKeysAreInRange = false;
+					if (inventoryManager.Inventory.ContainsKey(k))
+					{
+						allKeysAreInRange = false;
+					}
 				}
 			}
+		
         }
     }
 }
