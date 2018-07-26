@@ -813,6 +813,7 @@ GameObject:
   m_Component:
   - component: {fileID: 259696782}
   - component: {fileID: 259696781}
+  - component: {fileID: 259696783}
   m_Layer: 0
   m_Name: collider
   m_TagString: Untagged
@@ -833,7 +834,7 @@ EdgeCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
-  m_EdgeRadius: 0
+  m_EdgeRadius: 0.05
   m_Points:
   - {x: -2.2975218, y: 0.58613837}
   - {x: 2.3242054, y: 0.5360583}
@@ -841,8 +842,7 @@ EdgeCollider2D:
   - {x: 2.3180602, y: 0.57567334}
   - {x: -2.3069823, y: 0.59344405}
   - {x: -2.3426328, y: -8.676334}
-  - {x: 2.2932365, y: -8.753021}
-  - {x: 2.3837924, y: 0.6038107}
+  - {x: 2.2838802, y: -8.686232}
 --- !u!4 &259696782
 Transform:
   m_ObjectHideFlags: 0
@@ -856,6 +856,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -13.909}
+--- !u!68 &259696783
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 259696780}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -0.49825257, y: 0.6429328}
+  - {x: -0.48266318, y: -8.667604}
 --- !u!1 &393791010
 GameObject:
   m_ObjectHideFlags: 0
@@ -1121,7 +1138,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 416335556}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.2, y: -3.26, z: 0}
+  m_LocalPosition: {x: -7.2, y: -3.26, z: 4}
   m_LocalScale: {x: 1.200645, y: 1.2006452, z: 1.2006452}
   m_Children:
   - {fileID: 159899818}
@@ -2463,7 +2480,6 @@ EdgeCollider2D:
   - {x: -0.9909934, y: 0.64574844}
   - {x: 0.9861571, y: 0.63925797}
   - {x: 0.9985335, y: -1.2924352}
-<<<<<<< HEAD
   - {x: -1.0024241, y: -1.2774136}
   - {x: 0.9999998, y: -1.3100389}
 --- !u!1 &2007643664
@@ -2620,9 +2636,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.097}
-=======
-  - {x: -0.8704967, y: -1.3148116}
-  - {x: -0.86884516, y: -1.3052837}
-  - {x: -0.88609666, y: -1.3086715}
-  - {x: -1.0022559, y: -1.3100133}
->>>>>>> a7c9d7658a476206b22c001ddb7ce8ee06ae1cd6

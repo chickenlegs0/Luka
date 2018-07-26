@@ -241,8 +241,7 @@ MonoBehaviour:
         outs: 01000000
         advanced: 0
         metadata: 
-        text: 'A half finished letter sits ontop of a medical journal titled "Hypnosis
-          before Surgery". '
+        text: 'A ripped journal page sits '
         name: 
         portrait: 
         audio: 
@@ -270,10 +269,10 @@ MonoBehaviour:
         type: 1
         theme: 
         position: {x: 501, y: 22}
-        outs: 0200000003000000
+        outs: ffffffff0200000003000000
         advanced: 0
         metadata: 
-        text: Would you like to read the letter?
+        text: 
         name: 
         portrait: 
         audio: 
@@ -286,6 +285,7 @@ MonoBehaviour:
           height: 0
         newWindow: 0
         choices:
+        - Would you like to read the page?
         - Yes
         - No
         waitType: 0
@@ -302,14 +302,18 @@ MonoBehaviour:
       - id: 2
         type: 0
         theme: 
-        position: {x: 830.8169, y: 238}
-        outs: 04000000
+        position: {x: 831.8169, y: 168}
+        outs: 07000000
         advanced: 0
         metadata: 
         text: 'Patient Log: 32405
 
 
-          Patient nicknamed L'
+          Dr. Henry Henderson
+
+          March 25
+
+'
         name: 
         portrait: 
         audio: 
@@ -336,7 +340,7 @@ MonoBehaviour:
       - id: 3
         type: 6
         theme: 
-        position: {x: 866.8169, y: 65}
+        position: {x: 928.8169, y: 362}
         outs: 
         advanced: 0
         metadata: 
@@ -367,11 +371,144 @@ MonoBehaviour:
       - id: 4
         type: 6
         theme: 
-        position: {x: 1160.8169, y: 150}
+        position: {x: 1937.8169, y: 183}
         outs: 
         advanced: 0
         metadata: 
         text: 
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 5
+        type: 0
+        theme: 
+        position: {x: 1241, y: 153}
+        outs: 06000000
+        advanced: 0
+        metadata: 
+        text: "Subject, dubbed \"Luka\" based on previous observations, has been non
+          responsive but in stable condition. No ill effects from the transition-proceedure
+          from what our screen can tell us. \n"
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 6
+        type: 0
+        theme: 
+        position: {x: 1555, y: 153}
+        outs: 08000000
+        advanced: 0
+        metadata: 
+        text: 'On a sidenote, nurses have been reporting what they claim to be "black
+          smoke" coming from the quarantine. '
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 7
+        type: 0
+        theme: 
+        position: {x: 1043, y: 346}
+        outs: 05000000
+        advanced: 0
+        metadata: 
+        text: '
+
+          Subject appeared in the operating room around 804, a little less than 10
+          minutes after procedure occured.
+
+'
+        name: 
+        portrait: 
+        audio: 
+        audioDelay: 0
+        rect:
+          serializedVersion: 2
+          x: 0
+          y: 0
+          width: 0
+          height: 0
+        newWindow: 0
+        choices: []
+        waitType: 0
+        waitDuration: 0
+        variableScope: 0
+        variableType: 0
+        variableId: 0
+        variableScrollPosition: {x: 0, y: 0}
+        variableSetEquation: 0
+        variableSetValue: 
+        variableGetEquation: 0
+        variableGetValue: 
+        messageName: 
+      - id: 8
+        type: 0
+        theme: 
+        position: {x: 1635, y: 10}
+        outs: 04000000
+        advanced: 0
+        metadata: 
+        text: 'Due to suspicious malfunctions in our subject monitoring system,  and
+          our lights at that, we are unable to confirm these reports. '
         name: 
         portrait: 
         audio: 
@@ -1855,7 +1992,7 @@ MonoBehaviour:
         outs: 01000000
         advanced: 0
         metadata: 
-        text: This lamp is very ugly.
+        text: 'Why is every light in this building flickering? '
         name: 
         portrait: 
         audio: 
@@ -2007,7 +2144,11 @@ MonoBehaviour:
         outs: 01000000
         advanced: 0
         metadata: 
-        text: Qualification.
+        text: 'Henry Henderson
+
+          PhD, MD
+
+          International University of the Tri-State Area'
         name: 
         portrait: 
         audio: 
@@ -2492,7 +2633,7 @@ MonoBehaviour:
     - id: 29
       name: deadbody04
       startPage: 0
-      scrollPosition: {x: 0, y: 60}
+      scrollPosition: {x: 0, y: 0}
       phases:
       - id: 0
         type: 0
@@ -2578,4 +2719,4 @@ MonoBehaviour:
     themes:
       themes: []
       selection: 0
-    selectorScrollPosition: {x: 0, y: 319}
+    selectorScrollPosition: {x: 0, y: 0}
