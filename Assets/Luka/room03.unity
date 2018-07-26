@@ -1576,6 +1576,8 @@ GameObject:
   - component: {fileID: 1364453370}
   - component: {fileID: 1364453369}
   - component: {fileID: 1364453371}
+  - component: {fileID: 1364453372}
+  - component: {fileID: 1364453373}
   m_Layer: 0
   m_Name: moniter
   m_TagString: Untagged
@@ -1716,6 +1718,31 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &1364453372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1364453365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f580e41d874bf63478efc9380edccd54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 6922e0d3c35524576870f8c0c941d319, type: 3}
+  Loop: 0
+--- !u!114 &1364453373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1364453365}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f98a0b2ea92d7dc468d8331d38fa9795, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 5718df2eecca74cceaffd60f61a2c9a6, type: 3}
 --- !u!1 &1596779155
 GameObject:
   m_ObjectHideFlags: 0
