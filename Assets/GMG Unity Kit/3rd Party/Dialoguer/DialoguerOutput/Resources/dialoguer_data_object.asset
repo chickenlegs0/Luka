@@ -2935,7 +2935,7 @@ MonoBehaviour:
     - id: 30
       name: Monitor Key
       startPage: 0
-      scrollPosition: {x: 709.20605, y: 0}
+      scrollPosition: {x: 843, y: 0}
       phases:
       - id: 0
         type: 0

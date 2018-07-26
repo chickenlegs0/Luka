@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Luka/menu.unity
+    guid: 8cc6fe9412772854081ea31fcf35ed25
+  - enabled: 1
     path: Assets/Luka/Opening Scene.unity
     guid: 36afd67e349b5ee448101ee712e755a1
   - enabled: 1
